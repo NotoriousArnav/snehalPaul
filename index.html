@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Style for Heading */
+        /* Debug Code
+        * {
+          outline: 2px #0f0 solid;
+        }
+        */
+        h1 {
+          font-family: Arial, sans-serif;
+          font-size: 36px;
+          text-align: left;
+          color: white;
+          margin-bottom: 50px;
+          margin-left: 20px;
+          text-shadow: 2px 2px #333;
+        }
+        .name {
+          text-shadow: 2px 2px #333;
+        }
+  
+        /* Style for Social Media Icons */
+        .icon {
+          width: 50px;
+          height: 50px;
+          margin: 10px;
+          border-radius: 25px;
+          transition: all 0.2s ease-in-out;
+        }
+        .icon:hover {
+          transform: scale(1.1);
+          box-shadow: 0 0 10px #333;
+        }
+  
+        /* Style for Social Media Links */
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 97vh;
+          padding: 2%;
+          gap: 8px;
+        }
+        body{
+          background-image: url(snehal7.jpg);
+          background-size: cover;
+          background-position: 0 45%;
+          background-blend-mode: multiply;
+          background-color: rgba(0, 0, 0, 0.5);
+          background-clip: content-box;
+        }
+  
+        /* Style for Social Media Links Container */
+        .links {
+          display: flex;
+          justify-content: flex-start;
+          gap: 1.5rem;
+          margin-left: 20px;
+          border-radius: 16px;
+        }
+        .extra-links {
+          background-color: rgba(255, 250, 240, 0.225);
+          border-radius: 12px;
+          padding: 8px;
+          display: flex;
+          gap: 2rem;
+        }
+        /* Media Query for Small Screen Devices */
+        @media (max-width: 767px) {
+          h1 {
+            font-size: 24px;
+          }
+          body{
+            background-image: url(snehal1.jpg);
+            background-position: -125% 0;
+          }
+          .container{
+            margin: 0;
+            padding: 0;
+          }
+          .icon {
+            width: 30px;
+            height: 30px;
+            /* color: rgb(32, 75, 192); */
+          }
+          .links {
+            display: grid;
+            backdrop-filter: blur(4px);
+            background-color: rgba(255, 250, 240, 0.225);
+            grid-template-columns: auto auto auto auto;
+          }
+          .extra-links {
+          background-color: rgba(255, 250, 240, 0.225);
+          border-radius: 12px;
+          padding: 8px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: aliceblue;
+          }
+        }
+        </style>
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <!-- Heading -->
+      <h1>Hi, I am Snehal Paul!</h1>
+
+      <!-- Social Media Links -->
+      <div class="links">
+        <a href="https://facebook.com/snehal.paul.796">
+          <object type="image/svg+xml" class="icon" data="icons8-facebook-60.svg" type=""></object>
+        </a>
+        <a href="https://twitter.com/SnehalPaul2006">
+          <object type="image/svg+xml" class="icon" data="icons8-twitter-60.svg" alt="Twitter"> </object>
+        </a>
+        <a href="https://instagram.com/___.snehalpaul.___/">
+          <object type="image/svg+xml" class="icon" data="icons8-instagram-60.svg" alt="Instagram"> </object>
+        </a>
+        <a href="https://discord.gg/pSmPysYc">
+          <object type="image/svg+xml" class="icon" data="icons8-discord.svg" alt="Discord"></object>
+        </a>
+        <a href="https://youtube.com/@snehalpaul9717">
+          <object type="image/svg+xml" class="icon" data="icons8-youtube.svg" alt="YouTube"> </object>
+        </a>
+      </div>
+      <div class="extra-links">
+        <!-- <span>Other Links</span> -->
+        <a href="https://wa.me/+919476453903">
+          <object class="icon" data="icons8-whatsapp.svg" type=""></object>
+        </a>
+        <a href="https://open.spotify.com/user/31yberciv5ujai3rljx4pedyepjq?si=d647986eb9084f50">
+          <object class="icon" data="icons8-spotify-60.svg" type=""></object>
+        </a>
+        <a href="https://www.snapchat.com/add/snehal_paul2006">
+          <object class="icon" data="icons8-snapchat-60.svg" type=""></object>
+        </a>
+        <a href="mailto:snehalpaul2006@gmail.com">
+          <object class="icon" data="email.svg" type=""></object>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
